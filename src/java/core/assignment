@@ -1,0 +1,36 @@
+Scenario: You are developing an API for an online gambling platform that offers 
+various games of chance. As part of your development tasks, you need to design and
+ implement several API endpoints to handle different aspects of the gambling 
+experience.
+
+Question: Design the API endpoints for the following features of the online gambling
+ platform:
+1. User Registration: Create an API endpoint that allows users to register an account.
+The endpoint should receive parameters such as name (string), email (string), password
+(string), and age (integer). The API should validate the inputs, perform age 
+verification, and create a new user account if the provided information is valid.
+
+2. Game Selection: Create an API endpoint that lists the available games on the 
+platform. The API should return information about each game, including its name, 
+description, and betting options.
+
+3. Game Betting: Create an API endpoint that allows users to place bets on a selected
+ game. The endpoint should receive parameters such as user_id (integer), 
+game_id (integer), bet_amount (float), and bet_options (array). 
+The API should validate the inputs, verify the user's balance, process the bet, 
+and return the outcome of the bet.
+
+4. Account Balance: Create an API endpoint that retrieves the account balance for a 
+given user. The endpoint should receive the user_id as a parameter and return the 
+current balance.
+
+5. Transaction History: Create an API endpoint that fetches the transaction history
+ for a user. The endpoint should receive the user_id as a parameter and return a list
+ of transactions, including details like the transaction type (deposit or withdrawal),
+ amount, and timestamp.
+
+Please outline the request format, response format, and any error scenarios that should be handled for each of the mentioned endpoints. Additionally, consider any authentication or security measures
+that should be implemented to protect user data and ensure fair gambling practices.
+
+Note: Feel free to include any additional details or constraints that you think 
+would be relevant to this scenario.
